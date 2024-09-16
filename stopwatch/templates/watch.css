@@ -1,0 +1,70 @@
+ * {
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    margin-bottom:2%;
+    width: 100vh;
+    height: 100vh;
+    background-image: url('/stopwatch/static/image.jpeg'); /* Adjust the path accordingly */
+    background-size: cover;  
+    background-position: center ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    box-sizing: border-box;
+}
+.container{
+    
+    width:40%;
+    border: 1px solid rgb(246, 168, 44);
+    border-radius:3%;
+    box-shadow: 4px 5px 5px 3px rgba(46, 26, 2, 0.539);
+}
+.time{
+    border-bottom:  2px solid rgb(246, 168, 44);
+    padding: 8%;
+    color:  rgb(16, 13, 10);
+    margin: 0%;
+    font-size: large ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:10%;
+
+}
+.action{
+    padding:6%;
+    width: 100%;
+   
+
+}
+#start ,#pause , #reset ,#lap{
+    margin: 5%;
+    padding:5%;
+    width:35%;
+    background-color: rgb(240, 147, 9);
+    border:2px solid rgb(34, 29, 22);
+    border-radius: 5px;
+}
+#start:hover ,#pause:hover , #reset:hover ,#lap:hover {
+    cursor: pointer;
+    background-color: rgb(127, 86, 25);
+}
+.laps{
+    text-align: center;
+    color:azure;
+    margin-top : 10px;
+    text-decoration: none;
+
+}
+button{
+    width:70%;
+    height:40%;
+    
+}
